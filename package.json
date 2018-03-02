@@ -1,0 +1,44 @@
+{
+  "name": "discord-accept-bot",
+  "version": "0.1.0",
+  "description": "A simple bot for people to be able to accept rules by doing /accept",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0",
+    "yarn": ">=1.3.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegaCode18/discord-accept-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot"
+  ],
+  "author": "Matt <mmszek3000@gmail.com> (MegaCode18)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MegaCode18/discord-accept-bot/issues"
+  },
+  "homepage": "https://github.com/MegaCode18/discord-accept-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "grunt": "^1.0.2"
+  }
+}
