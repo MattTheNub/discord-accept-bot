@@ -5,7 +5,7 @@ A simple bot for people to be able to accept rules by doing `/accept`
 git clone git@github.com:MegaCode18/discord-accept-bot.git
 cd discord-accept-bot
 yarn
-grunt server # Make sure to install Grunt globally
+yarn start
 ```
 ## Configuring
 All configuration is stored in a `.config.js` file. Here is an example of such a file:
