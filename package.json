@@ -1,6 +1,6 @@
 {
   "name": "discord-accept-bot",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple bot for people to be able to accept rules by doing /accept",
   "main": "index.js",
   "engines": {

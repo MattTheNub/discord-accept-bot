@@ -5,3 +5,4 @@ var configReader = new ConfigReader(require('./.config'))
 var config = configReader.read()
 
 const acceptBot = new AcceptBot(config)
+void acceptBot
