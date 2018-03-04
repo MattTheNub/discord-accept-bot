@@ -1,5 +1,3 @@
-const { ConfigurationError } = require('../errors')
-
 /**
  * This class contains all the functions for the config
  */
