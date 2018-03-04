@@ -12,7 +12,25 @@ acceptbot --config=config.js
 acceptbot -c config.js
 ```
 [See below for more info](#configuring-from-the-git-repository)
-It can
+It can also be configured with command line options:
+
+```sh
+acceptbot --prefix=! # Optional
+acceptbot       -p ! # Default: /
+
+acceptbot --command=agree # Optional
+acceptbot        -d agree # Default: accept
+
+acceptbot --channel=welcome # Optional
+acceptbot        -h welcome # Default: Rules
+
+acceptbot --role=12345678 # Required
+acceptbot     -r 12345678
+
+acceptbot --token=$TOKEN # Required
+acceptbot      -t $TOKEN
+```
+
 ### Cloning from the git repository
 ```sh
 git clone git@github.com:MegaCode18/discord-accept-bot.git
