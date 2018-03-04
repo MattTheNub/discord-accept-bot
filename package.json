@@ -1,7 +1,8 @@
 {
   "name": "discord-accept-bot",
-  "version": "0.3.1",
-  "description": "A simple bot for people to be able to accept rules by doing /accept",
+  "version": "0.3.2",
+  "description":
+    "A simple bot for people to be able to accept rules by doing /accept",
   "main": "index.js",
   "engines": {
     "node": ">=4.0.0",
@@ -18,11 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/MegaCode18/discord-accept-bot.git"
   },
-  "keywords": [
-    "discord",
-    "discord.js",
-    "bot"
-  ],
+  "keywords": ["discord", "discord.js", "bot"],
   "author": "Matt <mmszek3000@gmail.com> (MegaCode18)",
   "license": "MIT",
   "bugs": {
