@@ -6,14 +6,6 @@ A simple bot for people to be able to accept rules by doing `/accept`
 yarn global add discord-accept-bot
 ```
 #### Configuring in the command line
-All configuration can be provided in a file, like so:
-```sh
-acceptbot --config=config.js
-acceptbot -c config.js
-```
-[See below for more info](#configuring-from-the-git-repository)
-It can also be configured with command line options:
-
 ```sh
 acceptbot --prefix=! # Optional
 acceptbot       -p ! # Default: /
