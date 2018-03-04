@@ -5,8 +5,8 @@ const AcceptBot = require('discord-accept-bot/src/bot')
 const { ConfigReader } = require('discord-accept-bot/src/config')
 
 var config = {}
-if (config.config || config.c) {
-  let configReader = new ConfigReader(require(config.config || config.c))
+if (argv.config || argv.c) {
+  let configReader = new ConfigReader(require(argv.config || argv.c))
   config = configReader.read()
 } else {
   config.prefix = argv.prefix || argv.p || '/'

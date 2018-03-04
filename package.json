@@ -1,6 +1,6 @@
 {
   "name": "discord-accept-bot",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description":
     "A simple bot for people to be able to accept rules by doing /accept",
   "main": "index.js",
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/MegaCode18/discord-accept-bot#readme",
   "dependencies": {
-    "discord-accept-bot": "^0.3.0",
+    "discord-accept-bot": "0.3.3",
     "discord.js": "^11.3.0"
   },
   "optionalDependencies": {
