@@ -311,11 +311,11 @@ delegates@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
 
-discord-accept-bot@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/discord-accept-bot/-/discord-accept-bot-0.3.0.tgz#58787535d51841e3f08dd46df5260796bf3acfd5"
+discord-accept-bot@0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/discord-accept-bot/-/discord-accept-bot-0.3.3.tgz#653cdfb0223bec0e76b994a8d616ae884cc2d97e"
   dependencies:
-    discord-accept-bot "^0.3.0"
+    discord-accept-bot "0.3.3"
     discord.js "^11.3.0"
   optionalDependencies:
     bufferutil "^3.0.3"
